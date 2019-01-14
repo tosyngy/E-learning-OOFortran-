@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family:"Trebuchet MS", Arial, Verdana;
+	font-size: 12px;
+	line-height:18px;
+	border:0;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	background: url(../images/bg.jpg); 
+    background-attachment: fixed;  
+    background-position: center; 
+    background-color: #365096;
+	text-decoration:none;
+}
+#tableshape
+{
+border-top: solid;
+border-radius: 10px;
+box-shadow: none;
+vertical-align:middle; 
+outline-width: medium;
+width:1047;
+ height:985
+}
+#topbg
+{
+
+	width:100%; height:70px;
+}
+#top
+{
+	width:1000px; height:70px; margin:0px auto;
+}
+#top .logo
+{
+	float:left; width:300px; margin:20px;
+}
+#top .linkstop
+{
+	float:right; width:500px; margin:5px; color:#FF0000; text-transform:capitalize; height:30px; text-align:right; margin-top:10px; padding-right:5px; font-size:24px;
+}
+#top .links
+{
+	float:right; width:500px; margin:5px; text-align:right; font-size:14px; color:#01579B;
+}
+#top .links a
+{
+	color:#01579B; text-decoration:none;
+}
+#top .links a:active, #top .links a:hover, #top .links .hover
+{
+	color:#FF0000; text-decoration:underline;
+}
+#line
+{
+	width:100%; height:5px; background:#01579B; margin:0px auto;
+}
+#backwhite
+{
+	width:1020px; margin:0px auto; background:#FFFFFF;
+}
+#back
+{	
+	background:#01579B;
+}
+#bannerimg
+{
+	width:1000px; min-height:190px; margin:2px auto; border:5px solid #01579B;
+}
+#loginarea
+{
+	width:560px; height:160px; margin:-5px auto; border:5px solid #01579B; padding:10px; color:#999999;font-family:"Trebuchet MS", Arial, Verdana; font-size:11px;
+}
+#belowloginimg
+{
+	width:1000px; height:118px; margin:-3px auto; border-top:0px solid #01579B; border-bottom:0px solid #01579B;
+}
+#belowloginimg .img
+{
+	width:1000px; height:118px;
+}
+#footer
+{
+	width:100%; height:50px; background:#CCCCCC; margin:-12px auto;
+}
+#footer .footer
+{
+	width:200px; height:50px; margin:5px auto; color:#01579B; font-family:"Trebuchet MS", Arial, Verdana; font-size:12px;
+}
+#footer .footer a
+{
+	color:#FFF; 
+}
+#footer .footer a:hover
+{
+	color:#01579B;
+}
+.username
+{
+	width:240px; padding:5px; margin-top:30px;
+}
+#welcomesearch
+{
+	width:950px; min-height:160px; margin:10px auto; border:0px solid #01579B; padding:10px 5px 5px 10px; color:#FF0000;font-family:"Trebuchet MS", Arial, Verdana; font-size:14px;
+}
+#welcomesearch p
+{
+	text-align:justify; color:#000000;
+}
+#welcomesearch .inputsearch
+{
+	width:840px; padding:5px; margin-top:2px; border:1px solid #01579B;
+}
+.iframediv
+{
+	width:950px; height:500px; border:0px solid #BAE1FE;
+}
+.catalogue
+{
+	width:100%; height:100px; padding:5px; border-bottom:5px solid #BAE1FE; margin-top:50px;
+}
+.catalogue .left
+{
+	float:left; margin-right:5px; width:100px; height:100px; font-size:12px;
+}
+.catalogue .left .img
+{
+	padding-bottom:5px;
+}
+.catalogue .right
+{
+	float:right; width:800px; height:100px; color:#000000; text-align:justify; font-size:12px; font-weight:normal;
+}

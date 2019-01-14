@@ -1,0 +1,71 @@
+body{
+}
+
+
+.scroll-image{
+width:335px;
+float: left;
+height: 250;
+
+}
+
+/*
+ Scrollable image css style codes
+*/
+
+.scroll-image div
+   {
+       position:absolute;
+       z-index:0;
+   }
+   .scroll-image div.previous
+   {
+       z-index:1;
+   }
+   .scroll-image div.current
+   {
+       z-index:2;
+   }
+
+   /* end of css style codes */
+
+
+
+#rollover_images_quick{
+
+border: 1px groove #023315;
+}
+#imgscroller{
+
+width:335px;
+margin: auto;
+height: 250px;
+
+}
+#body_content_heading{
+
+text-transform: uppercase;;
+
+font-family: "Trebuchet Ms",Arial,Helvetica,Verdana;
+font-size: 30px;
+color: black;
+text-decoration-style: solid;
+text-align: center;
+font-weight: bold;
+text-decoration:blink;
+background: #EFEFEF;
+border-radius: 20px 20px 0px 0px ;
+}
+
+#body_content{
+
+width: 900px;
+min-height: 100px;
+color:black;
+font-size: 14px;
+word-spacing: normal;
+text-align: justify;
+font-family: "New Times Roman", Arial,Helvetica,Verdana;
+background: #FFFFFF;
+
+}
